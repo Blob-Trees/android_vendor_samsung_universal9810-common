@@ -28,50 +28,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.0.so \
     vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.1.so \
     vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.wifi.hostapd@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.wifi.hostapd@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.wifi.hostapd@1.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.wifi.supplicant@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.wifi.supplicant@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.wifi.supplicant@1.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.wifi.supplicant@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.wifi.supplicant@1.2.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.wifi@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.system.wifi.keystore@1.0.so \
     vendor/samsung/universal9810-common/proprietary/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.playback_record.default.so \
     vendor/samsung/universal9810-common/proprietary/lib/hw/audio.tms.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.tms.default.so \
     vendor/samsung/universal9810-common/proprietary/lib/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libskeymaster.so \
-    vendor/samsung/universal9810-common/proprietary/lib/libwifi-service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwifi-service.so \
-    vendor/samsung/universal9810-common/proprietary/lib/libwifi-system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwifi-system.so \
-    vendor/samsung/universal9810-common/proprietary/lib/libwifikeystorehal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwifikeystorehal.so \
     vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
     vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.wifi.hostapd@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.wifi.supplicant@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.0.so \
     vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.1.so \
     vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi.hostapd@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi.hostapd@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi.hostapd@1.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi.offload@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi.offload@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi.supplicant@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi.supplicant@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi.supplicant@1.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi.supplicant@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi.supplicant@1.2.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.wifi@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.system.wifi.keystore@1.0.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libkeymaster_helper.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libskeymaster.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libwifi-service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwifi-service.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libwifi-system-iface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwifi-system-iface.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libwifi-system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwifi-system.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libwifikeystorehal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwifikeystorehal.so \
     vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
     vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/universal9810-common/proprietary/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
     vendor/samsung/universal9810-common/proprietary/media/battery_low.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_low.spi \
     vendor/samsung/universal9810-common/proprietary/media/battery_temperature_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_error.spi \
@@ -129,14 +101,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
-    vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/sec.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.2-service \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
-    vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
@@ -153,12 +123,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
-    vendor/samsung/universal9810-common/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
-    vendor/samsung/universal9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
@@ -178,10 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/mixer_paths_r02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_r02.xml \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/mixer_paths_r08.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_r08.xml \
-    vendor/samsung/universal9810-common/proprietary/vendor/etc/permissions/android.hardware.wifi.aware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.aware.xml \
-    vendor/samsung/universal9810-common/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
-    vendor/samsung/universal9810-common/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
-    vendor/samsung/universal9810-common/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
@@ -321,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvkmanager_vendor.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
@@ -401,8 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libkeymaster2_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster2_mdfpp.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper_vendor.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
@@ -417,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndsecril-client.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
@@ -444,9 +404,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/vndk/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libssl.so
