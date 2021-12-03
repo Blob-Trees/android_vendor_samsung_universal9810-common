@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000045.drbin \
     vendor/samsung/universal9810-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000062.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000062.tlbin \
     vendor/samsung/universal9810-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/bcc_mali:$(TARGET_COPY_OUT_VENDOR)/bin/bcc_mali \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
