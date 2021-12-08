@@ -18,15 +18,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter crownlte star2lte starlte,$(TARGET_DEVICE)),)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := sswap
-LOCAL_MODULE_OWNER := samsung
-LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SYSTEM_BIN)
-LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SYSTEM_BIN_UNSTRIPPED)
-LOCAL_SRC_FILES := proprietary/rootfs/system/bin/sswap
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_CHECK_ELF_FILES := false
-include $(BUILD_PREBUILT)
-
 endif

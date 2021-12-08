@@ -18,26 +18,3 @@
 
 soong_namespace {
 }
-
-android_app_import {
-	name: "HotwordEnrollmentOKGoogleExCORTEXM4",
-	owner: "samsung",
-	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleExCORTEXM4",
-	owner: "samsung",
-	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleExCORTEXM4/HotwordEnrollmentXGoogleExCORTEXM4.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
