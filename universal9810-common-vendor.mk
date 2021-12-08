@@ -24,26 +24,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/etc/nfc_key:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc_key \
     vendor/samsung/universal9810-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/samsung/universal9810-common/proprietary/etc/permissions/com.sec.feature.fingerprint_manager_service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sec.feature.fingerprint_manager_service.xml \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@2.0.so \
     vendor/samsung/universal9810-common/proprietary/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.playback_record.default.so \
     vendor/samsung/universal9810-common/proprietary/lib/hw/audio.tms.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.tms.default.so \
-    vendor/samsung/universal9810-common/proprietary/lib/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libskeymaster.so \
-    vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.1.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@2.0.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libkeymaster_helper.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libskeymaster.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/universal9810-common/proprietary/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
     vendor/samsung/universal9810-common/proprietary/media/battery_low.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_low.spi \
     vendor/samsung/universal9810-common/proprietary/media/battery_temperature_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_error.spi \
