@@ -70,6 +70,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
 
+# Gatekeeper
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9810.so \
+    vendor/samsung/starlte/proprietary/vendor/lib64/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9810.so
+
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
