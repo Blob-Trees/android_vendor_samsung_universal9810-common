@@ -118,6 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so
 
 # LPM Binary
@@ -156,6 +158,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.2-service-armnn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.2-service-armnn.rc
+
+# NFC
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # OMX
 PRODUCT_COPY_FILES += \
