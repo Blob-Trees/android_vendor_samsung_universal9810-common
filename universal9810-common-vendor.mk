@@ -179,6 +179,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so
 
+# Power
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/power.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.exynos9810.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/power.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.exynos9810.so
+
 # Sensors
 # Note: Taken from G975F R vendor
 PRODUCT_COPY_FILES += \
