@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/main_abox:$(TARGET_COPY_OUT_VENDOR)/bin/main_abox \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libalsautils_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils_sec.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libaudiodebugfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodebugfs.so \
