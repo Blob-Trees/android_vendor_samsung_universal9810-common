@@ -213,6 +213,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/thermal.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.exynos9810.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/thermal.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.exynos9810.so
+
 # WiFi
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
