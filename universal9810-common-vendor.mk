@@ -122,6 +122,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so
 
+# Keymaster and Keystore
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper_vendor.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
+
 # LPM Binary
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm
