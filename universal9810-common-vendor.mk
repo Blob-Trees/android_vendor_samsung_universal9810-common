@@ -132,6 +132,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
+    vendor/samsung/universal9810-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
+    vendor/samsung/universal9810-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so
+
 # WiFi
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
