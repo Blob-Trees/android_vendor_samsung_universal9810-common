@@ -135,6 +135,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
     vendor/samsung/universal9810-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi
 
+# Memtrack
+# Note: Blobs taken from N770F R vendor
+PRODUCT_COPY_FILES += \
+    vendor/samsung/starlte/proprietary/vendor/lib/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9810.so \
+    vendor/samsung/starlte/proprietary/vendor/lib64/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9810.so
+
 # Neural Networks
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn \
