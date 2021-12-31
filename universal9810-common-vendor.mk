@@ -81,13 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
 
-# DSMS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/libdsms_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsms_vendor.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.frameworks.security.dsms@1.0.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libdsms_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsms_vendor.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.dsms@1.0.so
-
 # Fingerprint
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
