@@ -237,6 +237,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/thermal.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.exynos9810.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/thermal.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.exynos9810.so
 
+# Widevine
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/bin/bsd:$(TARGET_COPY_OUT_SYSTEM)/bin/bsd \
+    vendor/samsung/universal9810-common/proprietary/etc/init/bsd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/bsd.rc \
+    vendor/samsung/universal9810-common/proprietary/lib/libsec_wvkprov_serverHal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec_wvkprov_serverHal.so \
+    vendor/samsung/universal9810-common/proprietary/lib64/libsec_wvkprov_serverHal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec_wvkprov_serverHal.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprov@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
+    vendor/samsung/universal9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so
+
 # WiFi
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \

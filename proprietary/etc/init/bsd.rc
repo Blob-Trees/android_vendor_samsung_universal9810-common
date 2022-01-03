@@ -1,0 +1,12 @@
+on post-fs-data
+    # barnswallow Daemon socket
+    mkdir /dev/socket/bsd 0770 system system
+    start bsd
+    
+# Barnswallow Daemon
+service bsd /vendor/bin/bsd
+    user system
+    group system
+    oneshot
+    disabled
+
