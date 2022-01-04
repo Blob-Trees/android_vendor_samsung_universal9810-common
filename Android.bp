@@ -62,6 +62,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "power.exynos9810",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/power.exynos9810.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/power.exynos9810.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "thermal.exynos9810",
     owner: "samsung",
     strip: {
@@ -78,6 +99,66 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     check_elf_files: false,
     relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libegis_fp_normal_sensor_test",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libegis_fp_normal_sensor_test.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgf_in_system_lib",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libgf_in_system_lib.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libgf_in_system_lib.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libqfp_sensortest",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libqfp_sensortest.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libqfp_sensortest.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -266,4 +347,84 @@ cc_prebuilt_binary {
    relative_install_path: "hw",
    prefer: true,
    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.samsung.hardware.radio.channel@2.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.samsung.hardware.radio.bridge@2.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.samsung.hardware.radio@2.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.samsung.hardware.radio@2.1",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
 }
