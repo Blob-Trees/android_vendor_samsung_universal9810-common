@@ -120,8 +120,7 @@ PRODUCT_COPY_FILES += \
 # libion
 # Note: Taken from N770F R vendor
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so
+    libion_exynos
 
 # LPM Binary
 PRODUCT_COPY_FILES += \
