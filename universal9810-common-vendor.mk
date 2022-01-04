@@ -141,10 +141,8 @@ PRODUCT_PACKAGES += \
     memtrack.exynos9810
 
 # Neural Networks
-PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.2-service-armnn
-
 PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.2-service-armnn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.2-service-armnn.rc
 
 # NFC
