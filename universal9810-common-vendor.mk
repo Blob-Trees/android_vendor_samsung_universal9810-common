@@ -147,8 +147,7 @@ PRODUCT_COPY_FILES += \
 # Memtrack
 # Note: Blobs taken from N770F R vendor
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9810.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/memtrack.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9810.so
+    memtrack.exynos9810
 
 # Neural Networks
 PRODUCT_COPY_FILES += \
