@@ -123,6 +123,46 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libprotobuf-cpp-full-3.9.1",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libprotobuf-cpp-lite-3.9.1",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libstagefrighthw",
     owner: "samsung",
     strip: {
@@ -142,10 +182,83 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+cc_prebuilt_library_shared {
+    name: "sensors.bio",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/sensors.bio.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/sensors.bio.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "sensors.bio",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/sensors.grip.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/sensors.grip.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "sensors.bio",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/sensors.sensorhub.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/sensors.sensorhub.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
    name: "android.hardware.neuralnetworks@1.2-service-armnn",
    owner: "samsung",
    srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn"],
+   check_elf_files: false,
+   strip: {
+       none: true,
+   },
+   relative_install_path: "hw",
+   prefer: true,
+   soc_specific: true,
+}
+
+cc_prebuilt_binary {
+   name: "lhd",
+   owner: "samsung",
+   srcs: ["proprietary/vendor/bin/hw/lhd"],
    check_elf_files: false,
    strip: {
        none: true,
