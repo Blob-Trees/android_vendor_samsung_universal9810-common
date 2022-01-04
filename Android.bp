@@ -284,7 +284,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefrighthw",
+    name: "libsecaudiocoreutils",
     owner: "samsung",
     strip: {
         none: true,
@@ -445,7 +445,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "sensors.bio",
+    name: "sensors.grip",
     owner: "samsung",
     strip: {
         none: true,
@@ -465,7 +465,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "sensors.bio",
+    name: "sensors.sensorhub",
     owner: "samsung",
     strip: {
         none: true,
