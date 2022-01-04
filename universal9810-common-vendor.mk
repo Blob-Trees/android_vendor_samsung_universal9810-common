@@ -230,9 +230,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Thermal
-PRODUCT_COPY_FILES += \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/thermal.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.exynos9810.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/thermal.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.exynos9810.so
+PRODUCT_PACKAGES += \
+    thermal.exynos9810
 
 # Widevine
 PRODUCT_COPY_FILES += \
