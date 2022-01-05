@@ -104,6 +104,319 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.AVC.Decoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.AVC.Decoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.AVC.Decoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.AVC.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.AVC.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.AVC.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.HEVC.Decoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.HEVC.Decoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.HEVC.Decoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.HEVC.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.HEVC.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.HEVC.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.MPEG4.Decoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.MPEG4.Decoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.MPEG4.Decoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.MPEG4.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.MPEG4.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.MPEG4.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.VP8.Decoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP8.Decoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP8.Decoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.VP8.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP8.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP8.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.VP9.Decoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP9.Decoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP9.Decoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.VP9.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP9.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP9.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.WMV.Decoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.WMV.Decoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.WMV.Decoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.HEVC.WFD.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.HEVC.WFD.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.HEVC.WFD.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOMX.Exynos.AVC.WFD.Encoder",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.AVC.WFD.Encoder.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.AVC.WFD.Encoder.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "omx",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libExynosOMX_Core",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libExynosOMX_Core.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libExynosOMX_Core.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libExynosOMX_Resourcemanager",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libExynosOMX_Resourcemanager.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libegis_fp_normal_sensor_test",
     owner: "samsung",
     strip: {
