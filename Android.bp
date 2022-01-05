@@ -111,10 +111,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.AVC.Decoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.AVC.Decoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so"],
         },
     },
     compile_multilib: "both",
@@ -132,10 +132,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.AVC.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.AVC.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so"],
         },
     },
     compile_multilib: "both",
@@ -153,10 +153,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.HEVC.Decoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.HEVC.Decoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so"],
         },
     },
     compile_multilib: "both",
@@ -174,10 +174,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.HEVC.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.HEVC.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so"],
         },
     },
     compile_multilib: "both",
@@ -195,10 +195,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.MPEG4.Decoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.MPEG4.Decoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so"],
         },
     },
     compile_multilib: "both",
@@ -216,10 +216,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.MPEG4.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.MPEG4.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so"],
         },
     },
     compile_multilib: "both",
@@ -237,10 +237,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP8.Decoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP8.Decoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so"],
         },
     },
     compile_multilib: "both",
@@ -258,10 +258,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP8.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP8.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so"],
         },
     },
     compile_multilib: "both",
@@ -279,10 +279,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP9.Decoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP9.Decoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so"],
         },
     },
     compile_multilib: "both",
@@ -300,10 +300,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.VP9.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.VP9.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so"],
         },
     },
     compile_multilib: "both",
@@ -321,10 +321,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.WMV.Decoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.WMV.Decoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so"],
         },
     },
     compile_multilib: "both",
@@ -342,10 +342,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.HEVC.WFD.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.HEVC.WFD.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so"],
         },
     },
     compile_multilib: "both",
@@ -363,10 +363,10 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/libOMX.Exynos.AVC.WFD.Encoder.so"],
+            srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/libOMX.Exynos.AVC.WFD.Encoder.so"],
+            srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so"],
         },
     },
     compile_multilib: "both",
