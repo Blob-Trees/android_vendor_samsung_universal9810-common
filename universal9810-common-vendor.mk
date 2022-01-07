@@ -17,11 +17,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/universal9810-common
 
-# AptX
-PRODUCT_COPY_FILES += \
-    vendor/samsung/universal9810-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so
-
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/main_abox:$(TARGET_COPY_OUT_VENDOR)/bin/main_abox \
