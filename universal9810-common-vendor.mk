@@ -101,6 +101,11 @@ PRODUCT_PACKAGES += \
     gralloc.exynos9810 \
     libGrallocWrapper
 
+# HWC
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so
+
 # Keymaster and Keystore
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
