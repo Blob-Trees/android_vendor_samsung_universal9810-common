@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
 # Gralloc
-# Note: Taken from N770F R vendor
+# Note: Taken from N770FZHU8FUL7 vendor
 PRODUCT_PACKAGES += \
     gralloc.exynos9810 \
     libGrallocWrapper
@@ -123,7 +123,7 @@ PRODUCT_PACKAGES += \
     libion_exynos
 
 # Memtrack
-# Note: Blobs taken from N770F R vendor
+# Note: Blobs taken from N770FZHU8FUL7 vendor
 PRODUCT_PACKAGES += \
     memtrack.exynos9810
 
