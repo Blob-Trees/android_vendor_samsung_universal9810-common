@@ -58,6 +58,55 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so
 
+# Codec2
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.0.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_aacdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_aacenc.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_amrnbdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_amrnbdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_amrwbdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_amrwbdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_apedec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_apedec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_flacdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_imadec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_imadec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_mp3dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_mp43dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_mp43dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_mp4vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_mp4vdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_soft_common.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_vc1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_vc1dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_wmadec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_wmv7dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_wmv7dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_sec_wmv8dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_sec_wmv8dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_simple_component.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_simple_component.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_ac4dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_common.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_soft_eac3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_eac3dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.0.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.1.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_aacdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_aacenc.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_amrnbdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_amrnbdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_amrwbdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_amrwbdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_apedec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_apedec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_flacdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_imadec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_imadec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp3dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_mp43dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp43dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_mp4vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp4vdec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_soft_common.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_vc1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_vc1dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmadec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_wmv7dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmv7dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_sec_wmv8dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmv8dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_simple_component.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_simple_component.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_soft_eac3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_eac3dec.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so
+
 # Dolby
 PRODUCT_PACKAGES += \
     libprofileparamstorage \
