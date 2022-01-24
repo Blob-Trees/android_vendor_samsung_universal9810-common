@@ -82,7 +82,9 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    gatekeeper.exynos9810
+    gatekeeper.exynos9810 \
+    libbauthserver \
+    libbauthtzcommon
 
 # GPS
 PRODUCT_COPY_FILES += \
