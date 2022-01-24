@@ -41,27 +41,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "gatekeeper.exynos9810",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/gatekeeper.exynos9810.so"],
-        },
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/gatekeeper.exynos9810.so"],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "memtrack.exynos9810",
     owner: "samsung",
     strip: {
@@ -429,46 +408,6 @@ cc_prebuilt_library_shared {
         },
         android_arm64: {
             srcs: ["proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so"],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbauthserver",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["proprietary/vendor/lib/libbauthserver.so"],
-        },
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libbauthserver.so"],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbauthtzcommon",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["proprietary/vendor/lib/libbauthtzcommon.so"],
-        },
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libbauthtzcommon.so"],
         },
     },
     compile_multilib: "both",
