@@ -41,6 +41,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "gatekeeper.exynos9810",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/gatekeeper.exynos9810.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/gatekeeper.exynos9810.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "memtrack.exynos9810",
     owner: "samsung",
     strip: {

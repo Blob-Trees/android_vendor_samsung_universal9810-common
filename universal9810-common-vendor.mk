@@ -80,6 +80,10 @@ PRODUCT_PACKAGES += \
     libgf_in_system_lib \
     libqfp_sensortest
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    gatekeeper.exynos9810
+
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
