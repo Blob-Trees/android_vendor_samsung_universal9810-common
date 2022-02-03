@@ -104,6 +104,15 @@ PRODUCT_PACKAGES += \
 
 # HWC
 # Note: Taken from N770F R vendor
+PRODUCT_PACKAGES += \
+    libExynosHWCService \
+    hwcomposer.exynos9810 \
+    libexynosdisplay \
+    libexynosgraphicbuffer \
+    libexynosgscaler \
+    libexynosutils \
+    libexynosv4l2
+
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so
