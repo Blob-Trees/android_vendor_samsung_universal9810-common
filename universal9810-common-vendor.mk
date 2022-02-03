@@ -109,6 +109,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.exynos9810 \
     libexynosdisplay \
     libexynosgraphicbuffer \
+    libexynosscaler \
     libexynosgscaler \
     libexynosutils \
     libexynosv4l2
