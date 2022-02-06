@@ -138,8 +138,8 @@ PRODUCT_PACKAGES += \
 # Note: Blobs taken from N770FZHU8FUL7 vendor
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib/hw/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libGLES_mali.so \
-    vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libGLES_mali.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so
 
 # Memtrack
