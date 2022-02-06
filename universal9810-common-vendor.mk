@@ -166,10 +166,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libOMX.Exynos.AVC.Decoder \
     libOMX.Exynos.AVC.Encoder \
-    libOMX.Exynos.AVC.WFD.Encoder \
     libOMX.Exynos.HEVC.Decoder \
     libOMX.Exynos.HEVC.Encoder \
-    libOMX.Exynos.HEVC.WFD.Encoder \
     libOMX.Exynos.MPEG4.Decoder \
     libOMX.Exynos.MPEG4.Encoder \
     libOMX.Exynos.VP8.Decoder \
